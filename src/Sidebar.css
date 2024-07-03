@@ -1,0 +1,26 @@
+.sidebar{
+    flex:0.3;
+    min-width: 300px;
+    border-right: 0.1px solid rgb(55, 54, 54);
+}
+
+.sidebar__logo{
+    max-height: 23px;
+    max-width: 23px;
+    padding: 20px;
+    margin-top: 19px;
+    cursor: pointer;
+}
+
+.sidebar__button{
+    background-color: var(--twitter-color) !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin: 20px !important;
+    max-width: 270px;
+
+}
+

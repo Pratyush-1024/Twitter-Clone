@@ -1,0 +1,28 @@
+
+.sidebarOptions>.MuiSvgIcon-root{
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.sidebarOptions{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.sidebarOptions__icon {
+    margin-right: 10px; 
+  }
+
+  .sidebarOptions>h2{
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .sidebarOptions--active{
+    font-weight: 1000 !important;
+  }
